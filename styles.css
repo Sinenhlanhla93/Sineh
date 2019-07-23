@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.bio{
+    display: inline-block;
+    background: cadetblue;
+    background-size: cover;
+    padding: 20px;
+    font-size-adjust: inherit;
+    
+}
+
+
+
+    img {
+    border-radius: 0%;
+    width: 27%;
+    height: 27%;
+    padding-right: 2%;
+    display: block;
+    margin: auto;
+    
+    }
+
+nav{
+    width: 100%;
+    padding-right: 80px;
+    background: black;
+    position: fixed;
+    top: 0;
+}
+
+ul{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    margin-left: 0;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+ul li:hover{
+    background: green;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1, h3, p{
+    text-align: center;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 30px
+}
+
+.skillset{
+    background: cadetblue;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.prof{
+    padding-top: 400px;
+    padding-bottom: 370px;
+    background-image: url("sinnez.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.touch{
+    background: cadetblue;
+    padding: 20px;
+
+}
+
+input{
+    padding: 10px;
+    width: 50%;
+    border-radius: 4px;
+    border-style: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+input[type=textarea]{
+    height: 50px;
+}
+button{
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+    width: 50%;
+    height: 35px;
+    background: #417f81;
+}
+
+@media only screen and (max-width: 600px){
+    ul li{
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+    .prof{    
+    padding: 300px 0;
+    
+    border-radius: 25%;
+  }
+  .bio{
+    padding: 180px 0;
+    background: cadetblue;
+    display: block;
+  }
+  p{
+      padding: 10px;
+      text-align: center;
+  }
+  
+  input{
+      padding: 10px;
+      width: 80%;
+      border-radius: 4px;
+      border-style: none;
+      display: block;
+      margin: auto;
+      margin-bottom: 10px;
+  }
+  input[type=textarea]{
+      height: 50px;
+  }
+  button{
+      display: block;
+      margin: auto;
+      border-radius: 4px;
+      width: 80%;
+      height: 35px;
+      background: #417f81;
+  }
+
